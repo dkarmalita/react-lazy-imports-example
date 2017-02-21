@@ -1,0 +1,32 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+  ],
+  "globals": {
+    "window": true,
+    "document": true,
+    "recurly": true,
+    "define": true,
+    "System": true
+  },
+  "rules": {
+    "no-debugger": 1,
+    "no-console": 1,
+    "new-cap": 0,
+    "strict": 1,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": 0,
+    "eol-last": 0,
+    "quotes": [0, "single"],
+    "jsx-quotes": [1, "prefer-single"],
+    "no-unused-vars": 1,
+    "no-undef": 2,
+    "valid-typeof": 1,
+    "no-constant-condition": 1
+  }
+}
